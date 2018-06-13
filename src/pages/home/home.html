@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>chat application</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+ </ion-list>
+ <button ion-button block outline (click)="loginuser()">login</button>
+</ion-content>

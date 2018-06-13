@@ -1,0 +1,22 @@
+page-chat {
+  .innermessage{
+      display: inline-block;
+      padding: 5px 10px;
+      background-color:lightblue;
+      margin: 5px;
+      border-radius: 30%;
+  }
+  .username{
+      font-weight: bold;
+      font-size: 80%;
+  }
+  .message{
+    font-size: 120%;
+}
+.left{
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 0;
+}
+}
